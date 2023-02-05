@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: row;
     }
-    
+
     .napedzaItem {
         width: 200px;
         justify-content: center;
@@ -35,6 +35,7 @@
     }
 
     #section1 {
+        width: 100%;
         background-image: url('./img/heading.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -43,7 +44,39 @@
     }
 
     #section2 {
+        width: 100%;
         background-color: #129484;
+        height: 751px;
+    }
+
+    #section3 {
+        width: 100%;
+        background-image: url('./img/section3.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #129484;
+        height: 751px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .avatar {
+        border-radius: 50%;
+    }
+
+    .avatarSplit {
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .avatarWrapper {
+        padding: 15px;
+        text-align: center;
+        align-items: center;
     }
 </style>
 
@@ -60,7 +93,7 @@
     <div id="section2">
         <div id="spit1" class="split">
             <div id="split1-left">
-                <img src="./img/art1.png"/>
+                <img src="./img/art1.png" />
             </div>
             <div id="split1-right">
                 <h2>(Nie)przedszkole, czyli co?</h3>
@@ -69,34 +102,53 @@
                     <h3>CO NAS NAPĘDZA:</h3>
                     <div id="split1-2">
                         <div id="split1-2-1" class="napedzaItem">
-                            <img src="./img/relacja.png"/>
-                            <br/>BLISKA RELACJA
+                            <img src="./img/relacja.png" />
+                            <br />BLISKA RELACJA
                         </div>
                         <div id="split-1-2-1">
-                            <img src="./img/spacery.png" class="napedzaItem"/>
-                            <br/>DUŻO SPACERÓW
+                            <img src="./img/spacery.png" class="napedzaItem" />
+                            <br />DUŻO SPACERÓW
                         </div>
                         <div id="split1-2-1">
-                            <img src="./img/doswiadczenie.png" class="napedzaItem"/>
-                            <br/>NAUKA PRZEZ DOŚWIADCZANIE
+                            <img src="./img/doswiadczenie.png" class="napedzaItem" />
+                            <br />NAUKA PRZEZ DOŚWIADCZANIE
                         </div>
                     </div>
             </div>
         </div>
     </div>
     <div id="section3">
-        <div id="split3">
-            <div>Nasza kadra</div>
-            <div id="split2">
-                <div id="split2-1">Ania</div>
-                <div id="split2-1">Martyna</div>
-                <div id="split2-1">Gosia</div>
-                <div id="split2-1">Ania</div>
-                <div id="split2-1">Roksana</div>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <h2>Nasza kadra</h2>
+        <br /><br />
+        <div id="split2" class="avatarSplit">
+            <div id="split2-1" class="avatarWrapper">
+                <img src="img/w1.png" class="avatar" />
+                <br />
+                Ania
+            </div>
+            <div id="split2-2" class="avatarWrapper">
+                <img src="img/w1.png" class="avatar" />
+                <br />
+                Martyna
+            </div>
+            <div id="split2-3" class="avatarWrapper">
+                <img src="img/w1.png" class="avatar" />
+                <br />
+                Gosia
+            </div>
+            <div id="split2-4" class="avatarWrapper">
+                <img src="img/w1.png" class="avatar" />
+                <br />
+                Ania
+            </div>
+            <div id="split2-5" class="avatarWrapper">
+                <img src="img/w1.png" class="avatar" />
+                <br />
+                Roksana
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
