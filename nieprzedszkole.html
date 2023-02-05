@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Nieprzedszkole</title>
 </head>
 <style>
     .bar {
@@ -21,11 +21,29 @@
         display: flex;
         flex-direction: row;
     }
+    
+    .napedzaItem {
+        width: 200px;
+        justify-content: center;
+        text-align: center;
+    }
 
-    #split2 {
+    #split1-2 {
         width: 100%;
         display: flex;
         flex-direction: row;
+    }
+
+    #section1 {
+        background-image: url('./img/heading.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #FAF4E2;
+        height: 803px;
+    }
+
+    #section2 {
+        background-color: #129484;
     }
 </style>
 
@@ -38,36 +56,46 @@
             <div id="menu4" class="menuitem">Kontakt</div>
             <div id="menu5" class="menuitem">FAQ</div>
         </div>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
-        --swiat naszych malych ludzi--<br>
     </div>
     <div id="section2">
         <div id="spit1" class="split">
             <div id="split1-left">
-                --obrazek z dziewczynka z ksiazka--<br />
-                --obrazek z dziewczynka z ksiazka--<br />
-                --obrazek z dziewczynka z ksiazka--<br />
-                --obrazek z dziewczynka z ksiazka--<br />
+                <img src="./img/art1.png"/>
             </div>
             <div id="split1-right">
                 <h2>(Nie)przedszkole, czyli co?</h3>
-                <p>Jesteśmy alternatywnym, niesystemowym miejscem opieki dziennej, gdzie podążamy za potrzebami
-                    dzieci.</p>
-                <h3>CO NAS NAPĘDZA:</h3>
-                <div id="split2">
-                    <div id="split2-1">BLISKA RELACJA</div>
-                    <div id="split2-1">DUŻO SPACERÓW</div>
-                    <div id="split2-1">NAUKA PRZEZ DOŚWIADCZANIE</div>
-                </div>
+                    <p>Jesteśmy alternatywnym, niesystemowym miejscem opieki dziennej, gdzie podążamy za potrzebami
+                        dzieci.</p>
+                    <h3>CO NAS NAPĘDZA:</h3>
+                    <div id="split1-2">
+                        <div id="split1-2-1" class="napedzaItem">
+                            <img src="./img/relacja.png"/>
+                            <br/>BLISKA RELACJA
+                        </div>
+                        <div id="split-1-2-1">
+                            <img src="./img/spacery.png" class="napedzaItem"/>
+                            <br/>DUŻO SPACERÓW
+                        </div>
+                        <div id="split1-2-1">
+                            <img src="./img/doswiadczenie.png" class="napedzaItem"/>
+                            <br/>NAUKA PRZEZ DOŚWIADCZANIE
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
-
+    <div id="section3">
+        <div id="split3">
+            <div>Nasza kadra</div>
+            <div id="split2">
+                <div id="split2-1">Ania</div>
+                <div id="split2-1">Martyna</div>
+                <div id="split2-1">Gosia</div>
+                <div id="split2-1">Ania</div>
+                <div id="split2-1">Roksana</div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
