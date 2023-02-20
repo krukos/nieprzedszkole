@@ -6,13 +6,17 @@
 </head>
 <style>
     body {
-        background-color:#373737;
-        font-size:14px;
-        font-family:Lato;
+        background-color: #373737;
+        font-size: 19px;
+        font-family: Lato;
     }
 
     h1 {
-        font-size:55px;
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 45px;
     }
 
     .bar {
@@ -33,7 +37,9 @@
     }
 
     .napedzaItem {
-        width: 200px;
+        padding-top: 20px;
+        width: 145px;
+        font-size: 14px;
         justify-content: center;
         text-align: center;
     }
@@ -65,16 +71,27 @@
     #section2 {
         width: 1200px;
         background-color: #129484;
-        height: 751px;
+        height: 580px;
+    }
+
+    #split1-left {
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    #split1-right {
+        padding-top: 50px;
+        color: white;
     }
 
     #section3 {
         width: 1200px;
+        height: 659px;
         background-image: url('./img/section3.png');
         background-repeat: no-repeat;
         background-position: center;
         background-color: #129484;
-        height: 751px;
         text-align: center;
         align-items: center;
         flex-direction: column;
@@ -154,8 +171,8 @@
 
     .addressBox {
         width: 150px;
-        padding-left:30px;
-        padding-right:30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #section6 {
@@ -189,33 +206,33 @@
             <div id="menu5" class="menuitem">FAQ</div>
         </div>
         <div id="s1-text-block1">
-            <h1>Świat naszych<br/>Małych Ludzi</h1>
+            <h1>Świat naszych<br />Małych Ludzi</h1>
         </div>
     </div>
     <div id="section2">
-        <div id="spit1" class="split">
+        <div id="split1" class="split">
             <div id="split1-left">
                 <img src="./img/art1.png" />
             </div>
             <div id="split1-right">
-                <h2>(Nie)przedszkole, czyli co?</h3>
-                    <p>Jesteśmy alternatywnym, niesystemowym miejscem opieki dziennej, gdzie podążamy za potrzebami
-                        dzieci.</p>
-                    <h3>CO NAS NAPĘDZA:</h3>
-                    <div id="split1-2">
-                        <div id="split1-2-1" class="napedzaItem">
-                            <img src="./img/relacja.png" />
-                            <br />BLISKA RELACJA
-                        </div>
-                        <div id="split-1-2-1">
-                            <img src="./img/spacery.png" class="napedzaItem" />
-                            <br />DUŻO SPACERÓW
-                        </div>
-                        <div id="split1-2-1">
-                            <img src="./img/doswiadczenie.png" class="napedzaItem" />
-                            <br />NAUKA PRZEZ DOŚWIADCZANIE
-                        </div>
+                <h2>(Nie)przedszkole,<br/>czyli co?</h2>
+                <p>Jesteśmy alternatywnym, niesystemowym<br/>miejscem opieki dziennej, gdzie podążamy<br/>za potrzebami
+                    dzieci.<br/><br/></p>
+                <h3>CO NAS NAPĘDZA:</h3>
+                <div id="split1-2">
+                    <div id="split1-2-1" class="napedzaItem">
+                        <img src="./img/relacja.png" />
+                        <br />BLISKA RELACJA
                     </div>
+                    <div id="split1-2-2" class="napedzaItem">
+                        <img src="./img/spacery.png"  />
+                        <br />DUŻO SPACERÓW
+                    </div>
+                    <div id="split1-2-3" class="napedzaItem">
+                        <img src="./img/doswiadczenie.png"  />
+                        <br />NAUKA PRZEZ DOŚWIADCZANIE
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -309,8 +326,50 @@
     </div>
     <div id="section7">
         <div id="maps">
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Brossa%205&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:350px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:600px;}</style></div></div>
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=prezycka%206&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:350px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:600px;}</style></div></div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Brossa%205&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 350px;
+                            width: 600px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">google map generator</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 350px;
+                            width: 600px;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=prezycka%206&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 350px;
+                            width: 600px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">google map generator</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 350px;
+                            width: 600px;
+                        }
+                    </style>
+                </div>
+            </div>
         </div>
         <div id="addressSection">
             <div class="addressItem">
@@ -340,7 +399,7 @@
         </div>
     </div>
 
-    <img src="img/ruler.png"/>
+    <img src="img/ruler.png" />
 </body>
 
 </html>
