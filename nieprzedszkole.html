@@ -8,7 +8,7 @@
     body {
         background-color: #373737;
         font-size: 19px;
-        font-family:Tahoma;
+        font-family: Tahoma;
     }
 
     h1 {
@@ -34,6 +34,13 @@
         width: 100%;
         display: flex;
         flex-direction: row;
+    }
+
+    .sections {
+        width: 1200px;
+        position:absolute;
+        left:50%;
+        margin-left:-600px;
     }
 
     .napedzaItem {
@@ -105,13 +112,13 @@
 
     #section4 {
         width: 1200px;
-        height: 300px;      
+        height: 300px;
         background-color: #FFFCF4;
     }
 
     #section5 {
         width: 1200px;
-        height: 350px;      
+        height: 350px;
         background-color: #FFFCF4;
     }
 
@@ -223,219 +230,225 @@
 </style>
 
 <body>
-    <div id="section1">
-        <div id="head" class="bar">
-            <div id="menu1" class="menuitem">O nas</div>
-            <div id="menu2" class="menuitem">Informacje</div>
-            <div id="menu3" class="menuitem">Organizacja</div>
-            <div id="menu4" class="menuitem">Kontakt</div>
-            <div id="menu5" class="menuitem">FAQ</div>
-        </div>
-        <div id="s1-text-block1">
-            <h1>Świat naszych<br />Małych Ludzi</h1>
-        </div>
-    </div>
-    <div id="section2">
-        <div id="split1" class="split">
-            <div id="split1-left">
-                <br/><br/><br/>
-                <img src="./img/art1.png" />
+    <div class="sections">
+        <div id="section1">
+            <div id="head" class="bar">
+                <div id="menu1" class="menuitem">O nas</div>
+                <div id="menu2" class="menuitem">Informacje</div>
+                <div id="menu3" class="menuitem">Organizacja</div>
+                <div id="menu4" class="menuitem">Kontakt</div>
+                <div id="menu5" class="menuitem">FAQ</div>
             </div>
-            <div id="split1-right">
-                <h2>(Nie)przedszkole,<br/>czyli co?</h2>
-                <p>To przestrzeń, w której każdy będzie się czuł akceptowany i brany pod uwagę - zarówno każdy rodzic, jak i każde dziecko. Przestrzeń, w której nie ma wymagań dotyczących przyjmowania dzieci - Twoje dziecko nie musi być odpieluchowane, nie musi być odstawione od piersi, nie musi mieć drzemek. Przestrzeń, która wspiera indywidualny rozwój dziecka i jest dostosowana do tempa, by dziecko mogło rozwijać swój potencjał. I w końcu, Nieprzedzkole to taka przestrzeń, która będzie Cię wspierać w różnych wyzwaniach rodzicielksich i rozwojowych Twojego dziecka.<br/><br/></p>
-                <h3>CO NAS NAPĘDZA:</h3>
-                <div id="split1-2">
-                    <div id="split1-2-1" class="napedzaItem">
-                        <img src="./img/relacja.png" />
-                        <br />BLISKA RELACJA
-                    </div>
-                    <div id="split1-2-2" class="napedzaItem">
-                        <img src="./img/spacery.png"  />
-                        <br />DUŻO SPACERÓW
-                    </div>
-                    <div id="split1-2-3" class="napedzaItem">
-                        <img src="./img/doswiadczenie.png"  />
-                        <br />NAUKA PRZEZ DOŚWIADCZANIE
+            <div id="s1-text-block1">
+                <h1>Świat naszych<br />Małych Ludzi</h1>
+            </div>
+        </div>
+        <div id="section2">
+            <div id="split1" class="split">
+                <div id="split1-left">
+                    <br /><br /><br />
+                    <img src="./img/art1.png" />
+                </div>
+                <div id="split1-right">
+                    <h2>(Nie)przedszkole,<br />czyli co?</h2>
+                    <p>To przestrzeń, w której każdy będzie się czuł akceptowany i brany pod uwagę - zarówno każdy
+                        rodzic, jak i każde dziecko. Przestrzeń, w której nie ma wymagań dotyczących przyjmowania dzieci
+                        - Twoje dziecko nie musi być odpieluchowane, nie musi być odstawione od piersi, nie musi mieć
+                        drzemek. Przestrzeń, która wspiera indywidualny rozwój dziecka i jest dostosowana do tempa, by
+                        dziecko mogło rozwijać swój potencjał. I w końcu, Nieprzedzkole to taka przestrzeń, która będzie
+                        Cię wspierać w różnych wyzwaniach rodzicielksich i rozwojowych Twojego dziecka.<br /><br /></p>
+                    <h3>CO NAS NAPĘDZA:</h3>
+                    <div id="split1-2">
+                        <div id="split1-2-1" class="napedzaItem">
+                            <img src="./img/relacja.png" />
+                            <br />BLISKA RELACJA
+                        </div>
+                        <div id="split1-2-2" class="napedzaItem">
+                            <img src="./img/spacery.png" />
+                            <br />DUŻO SPACERÓW
+                        </div>
+                        <div id="split1-2-3" class="napedzaItem">
+                            <img src="./img/doswiadczenie.png" />
+                            <br />NAUKA PRZEZ DOŚWIADCZANIE
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="section3">
-        <br /><br /><br /><br /><br /><br /><br /><br />
-        <h2>Nasza kadra</h2>
-        <br /><br />
-        <div id="split2a" class="avatarSplit">
-            <div id="split2a-1" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Ania
+        <div id="section3">
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <h2>Nasza kadra</h2>
+            <br /><br />
+            <div id="split2a" class="avatarSplit">
+                <div id="split2a-1" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Ania
+                </div>
+                <div id="split2-2" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Martyna
+                </div>
+                <div id="split2a-3" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Gosia
+                </div>
             </div>
-            <div id="split2-2" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Martyna
-            </div>
-            <div id="split2a-3" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Gosia
-            </div>
-        </div>
-        <div id="split2b" class="avatarSplit">
-            <div id="split2b-1" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Ania
-            </div>
-            <div id="split2b-2" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Martyna
-            </div>
-            <div id="splitb-3" class="avatarWrapper">
-                <img src="img/w1.png" class="avatar" />
-                <br />
-                Gosia
-            </div>
-        </div>
-    </div>
-    <div id="section4">
-        <div id="spit3" class="split">
-            <div id="split3-left" class="filiaSplit">
-                <h2>Filia Leśnica</h2>
-                <p>Warto napisac o coworkingu dla rodzicow. Lorem ipsum...</p>
-            </div>
-            <div id="split3-right" class="filiaSplit">
-                <h2>Filia Brossa</h2>
-                <p>Jesteśmy alternatywnym, nesystemowym miejscem, gdzie podążamy za potrzebami dzieci. Lorem ipsum...
-                </p>
+            <div id="split2b" class="avatarSplit">
+                <div id="split2b-1" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Ania
+                </div>
+                <div id="split2b-2" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Martyna
+                </div>
+                <div id="splitb-3" class="avatarWrapper">
+                    <img src="img/w1.png" class="avatar" />
+                    <br />
+                    Gosia
+                </div>
             </div>
         </div>
-    </div>
-    <div id="section5">
-        <div id="spit4" class="split">
-            <div id="split4-1">
-                <img src="img/pic1.jpg" />
-            </div>
-            <div class="splitDivider"></div>
-            <div id="split4-2">
-                <img src="img/pic2.jpg" />
-            </div>
-            <div class="splitDivider"></div>
-            <div id="split4-3">
-                <img src="img/pic3.jpg" />
-            </div>
-            <div class="splitDivider"></div>
-            <div id="split4-4">
-                <img src="img/pic4.jpg" />
+        <div id="section4">
+            <div id="spit3" class="split">
+                <div id="split3-left" class="filiaSplit">
+                    <h2>Filia Leśnica</h2>
+                    <p>Warto napisac o coworkingu dla rodzicow. Lorem ipsum...</p>
+                </div>
+                <div id="split3-right" class="filiaSplit">
+                    <h2>Filia Brossa</h2>
+                    <p>Jesteśmy alternatywnym, nesystemowym miejscem, gdzie podążamy za potrzebami dzieci. Lorem
+                        ipsum...
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="section6">
-        <div id="text-block1">
-            <h3>Nasze miejsce</h3>
-            <p>U nas plan dnia nie jest przeładowany aktywnościami. Czy to znaczy, że dzieci się nudzą? NIE! <span
-                    class="boldSpan">Znajdziecie u nas sensoplastykę oraz wszęlką naukę przez zabawę.</span></p>
+        <div id="section5">
+            <div id="spit4" class="split">
+                <div id="split4-1">
+                    <img src="img/pic1.jpg" />
+                </div>
+                <div class="splitDivider"></div>
+                <div id="split4-2">
+                    <img src="img/pic2.jpg" />
+                </div>
+                <div class="splitDivider"></div>
+                <div id="split4-3">
+                    <img src="img/pic3.jpg" />
+                </div>
+                <div class="splitDivider"></div>
+                <div id="split4-4">
+                    <img src="img/pic4.jpg" />
+                </div>
+            </div>
         </div>
-        <div id="text-block2">
-            <b>Aktywności popoludniowe:</b><br/>
-            Jeśli energia pozwala, zorganizujemy gimnastykę, piosenki po angielsku, lub po prostu poczytamy
+        <div id="section6">
+            <div id="text-block1">
+                <h3>Nasze miejsce</h3>
+                <p>U nas plan dnia nie jest przeładowany aktywnościami. Czy to znaczy, że dzieci się nudzą? NIE! <span
+                        class="boldSpan">Znajdziecie u nas sensoplastykę oraz wszęlką naukę przez zabawę.</span></p>
+            </div>
+            <div id="text-block2">
+                <b>Aktywności popoludniowe:</b><br />
+                Jeśli energia pozwala, zorganizujemy gimnastykę, piosenki po angielsku, lub po prostu poczytamy
                 książki.
-        </div>
-        <div id="text-block3">
-            <b>Obiad:</b><br/>
-            Czy nie każdy rodzic chce, żeby dziecko jadło więcej warzyw? Katering jest wegański i pyszny, a wspólny
+            </div>
+            <div id="text-block3">
+                <b>Obiad:</b><br />
+                Czy nie każdy rodzic chce, żeby dziecko jadło więcej warzyw? Katering jest wegański i pyszny, a wspólny
                 posiłek to dobra okazja na oswajanie nowych składników.
-        </div>
-        <div id="text-block4">
-            <b>Spacer:</b><br/>
-            Przede wszystkim dla nas to swobodna zabawa. Raz pójdziemy do lasu, a raz na plac zabaw. Policzymy
+            </div>
+            <div id="text-block4">
+                <b>Spacer:</b><br />
+                Przede wszystkim dla nas to swobodna zabawa. Raz pójdziemy do lasu, a raz na plac zabaw. Policzymy
                 kamienie, albo zbudujemy szałas, a brudzdenie się to dla nas doświadczanie świata.
-        </div>
-        <div id="text-block5">
-            <b>Powitanie dzieci:</b>
-            Nie musicie być na czas. Dzieci przychodzą o róźnych godzinach. Jemy wspólnie śniadanie, dzieci mogą
+            </div>
+            <div id="text-block5">
+                <b>Powitanie dzieci:</b>
+                Nie musicie być na czas. Dzieci przychodzą o róźnych godzinach. Jemy wspólnie śniadanie, dzieci mogą
                 decydować czy będą się dzielić swoim z kolegami. Trochę też podziałamy kreatywnie z rana.
+            </div>
         </div>
-    </div>
-    <div id="section7">
-        <div id="maps">
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=Brossa%205&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 350px;
-                            width: 600px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net">google map generator</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 350px;
-                            width: 600px;
-                        }
-                    </style>
+        <div id="section7">
+            <div id="maps">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=Brossa%205&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 350px;
+                                width: 600px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">google map generator</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 350px;
+                                width: 600px;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=prezycka%206&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 350px;
+                                width: 600px;
+                            }
+                        </style><a href="https://www.embedgooglemap.net">google map generator</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 350px;
+                                width: 600px;
+                            }
+                        </style>
+                    </div>
                 </div>
             </div>
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=prezycka%206&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 350px;
-                            width: 600px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net">google map generator</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 350px;
-                            width: 600px;
-                        }
-                    </style>
+            <div id="addressSection">
+                <div class="addressItem">
+                    <h2>Filia Leśnica</h2>
+                </div>
+                <div class="addressItem">
+                    <img src="./img/pin.png" />
+                    <div class="addressBox">ul. Prężycka ileś<br>Wrocław-Leśnica</div>
+                    <img src="./img/fb.png" />
+                </div>
+                <div class="addressItem">
+                    <img src="./img/mobile.png" />
+                    <div class="addressBox">797 354 350</div>
+                </div>
+                <div class="addressItem">
+                    <img src="./img/email.png" />
+                    <div class="addressBox">kontakt@dziecolozka.pl</div>
+                </div>
+                <div class="addressItem">
+                    <h2>Filia Brossa</h2>
+                </div>
+                <div class="addressItem">
+                    <img src="./img/pin.png" />
+                    <div class="addressBox">ul. Brossa 5<br>Wrocław-Borek</div>
+                    <img src="./img/fb.png" />
                 </div>
             </div>
         </div>
-        <div id="addressSection">
-            <div class="addressItem">
-                <h2>Filia Leśnica</h2>
-            </div>
-            <div class="addressItem">
-                <img src="./img/pin.png" />
-                <div class="addressBox">ul. Prężycka ileś<br>Wrocław-Leśnica</div>
-                <img src="./img/fb.png" />
-            </div>
-            <div class="addressItem">
-                <img src="./img/mobile.png" />
-                <div class="addressBox">797 354 350</div>
-            </div>
-            <div class="addressItem">
-                <img src="./img/email.png" />
-                <div class="addressBox">kontakt@dziecolozka.pl</div>
-            </div>
-            <div class="addressItem">
-                <h2>Filia Brossa</h2>
-            </div>
-            <div class="addressItem">
-                <img src="./img/pin.png" />
-                <div class="addressBox">ul. Brossa 5<br>Wrocław-Borek</div>
-                <img src="./img/fb.png" />
-            </div>
-        </div>
     </div>
-
-    <img src="img/ruler.png" />
 </body>
 
 </html>
