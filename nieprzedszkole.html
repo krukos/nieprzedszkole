@@ -65,6 +65,7 @@
         background-size: 100%;
         background-color: #FAF4E2;
         height: 659px;
+        color: midnightblue;
     }
 
     #s1-text-block1 {
@@ -108,12 +109,21 @@
         flex-direction: column;
         display: flex;
         justify-content: center;
+        color: midnightblue;
     }
 
     #section4 {
         width: 1200px;
         height: 300px;
         background-color: #FFFCF4;
+    }
+
+    .headerOnWhite {
+        color: #129484;
+    }
+
+    .textOnWhite {
+        color: #373737;
     }
 
     #section5 {
@@ -206,6 +216,18 @@
         padding-right: 30px;
     }
 
+    .addressIcon {
+        width: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    img.address {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
     #section6 {
         color: white;
         position: relative;
@@ -227,11 +249,17 @@
 
     #section8 {
         width: 1200px;
-        height: 400px;
         background-image: url('./img/section8.png');
         background-repeat: no-repeat;
         background-position: left top;
         background-color: #129484;
+    }
+
+    #faq {
+        padding-left: 230px;
+        padding-right: 200px;
+        padding-top: 20px;
+        color: white;
     }
 
     #footer {
@@ -349,12 +377,13 @@
         <div id="section4">
             <div id="spit3" class="split">
                 <div id="split3-left" class="filiaSplit">
-                    <h2>Filia Leśnica</h2>
-                    <p>Warto napisac o coworkingu dla rodzicow. Lorem ipsum...</p>
+                    <h2 class="headerOnWhite">Filia Leśnica</h2>
+                    <p class="textOnWhite">Warto napisac o coworkingu dla rodzicow. Lorem ipsum...</p>
                 </div>
                 <div id="split3-right" class="filiaSplit">
-                    <h2>Filia Brossa</h2>
-                    <p>Jesteśmy alternatywnym, nesystemowym miejscem, gdzie podążamy za potrzebami dzieci. Lorem
+                    <h2 class="headerOnWhite">Filia Brossa</h2>
+                    <p class="textOnWhite">Jesteśmy alternatywnym, nesystemowym miejscem, gdzie podążamy za potrzebami
+                        dzieci. Lorem
                         ipsum...
                     </p>
                 </div>
@@ -431,33 +460,78 @@
             </div>
             <div id="addressSection">
                 <div class="addressItem">
-                    <h2>Filia Leśnica</h2>
+                    <h2 class="headerOnWhite">Filia Leśnica</h2>
                 </div>
                 <div class="addressItem">
-                    <img src="./img/pin.png" />
+                    <div class="addressIcon"><img src="./img/pin.png" class="address" /></div>
                     <div class="addressBox">ul. Prężycka 78<br>Wrocław-Leśnica</div>
-                    <img src="./img/fb.png" />
+                    <div class="addressIcon"><img src="./img/fb.png" class="address" /></div>
                 </div>
                 <div class="addressItem">
-                    <img src="./img/mobile.png" />
+                    <div class="addressIcon"><img src="./img/mobile.png" class="address" /></div>
                     <div class="addressBox">797 354 350</div>
                 </div>
                 <div class="addressItem">
-                    <img src="./img/email.png" />
+                    <div class="addressIcon"><img src="./img/email.png" class="address" /></div>
                     <div class="addressBox"><a href="mailto:kontakt@dziecolozka.pl">kontakt@dziecolozka.pl</a></div>
                 </div>
                 <div class="addressItem">
-                    <h2>Filia Brossa</h2>
+                    <h2 class="headerOnWhite">Filia Brossa</h2>
                 </div>
                 <div class="addressItem">
-                    <img src="./img/pin.png" />
+                    <div class="addressIcon"><img src="./img/pin.png" class="address" /></div>
                     <div class="addressBox">ul. Brossa 5<br>Wrocław-Borek</div>
-                    <img src="./img/fb.png" />
+                    <div class="addressIcon"><img src="./img/fb.png" class="address" /></div>
                 </div>
             </div>
         </div>
         <div id="section8">
-            FAQ
+            <div id="faq">
+                <h2>Pytania?</h2>
+                <h4>Pytanie1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie5</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie6</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4>Pytanie7</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br>
+            </div>
         </div>
         <div id="footer">
             <br>
